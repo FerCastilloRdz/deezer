@@ -15,19 +15,19 @@ body {
 .menu {
     width: 25%;
     height: 90%;
-    background-color: rgb(12, 104, 190);
+    background-color: #e5e5e5;
 }
 
 .musica {
     width: 75%;
     height: 90%;
-    background-color: rgb(61, 97, 97);
+    background-color: #e5e5e5;
 }
 
 .reproduccion {
     width: 100%;
     height: 10%;
-    background-color: aquamarine;
+    background-color: #e5e5e5;
 }
 
 .logo {
@@ -78,8 +78,28 @@ body {
     color: white;
     font-size: 20px;
 }
-
+ 
 .btnsearch:hover {
     background-color: rgb(21, 32, 32);
     color: violet;
+}
+
+.imagen{
+    width: 100px;
+    border-radius: 3px;
+}
+
+.artista{
+    display: flex;
+    flex-direction: row;
+}
+
+.artistaImg{
+    width: 30%;
+    height: 150px;
+}
+
+.artistaInfo{
+    width: 70%;
+    height: 150px;
 }
